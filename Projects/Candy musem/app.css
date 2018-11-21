@@ -22,7 +22,14 @@ body {
 
 .content {
     padding-top: 100px;
+    margin-bottom: 100px;
 }
+
+.navbar.scrolled {
+    background: rgb(222, 192, 222);
+    transition: 500ms;
+}
+
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
