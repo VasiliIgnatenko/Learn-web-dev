@@ -1,8 +1,28 @@
 body {
-    background:#eec1e3c2;
+    background:#f5d9d5;
     font-family: "Nunito", sans-serif;
 }
 
+.blurb h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.fas {
+    color: white;
+}
+
+.content {
+    padding-top: 100px;
+}
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
