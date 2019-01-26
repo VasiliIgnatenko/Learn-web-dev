@@ -1,7 +1,14 @@
+
+h1 {
+    background: #2980b9;
+    color: white;
+}
+
 #container {
     width: 360px;
-    margin: 0 auto;
-    border: 1px solid black;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .completed {

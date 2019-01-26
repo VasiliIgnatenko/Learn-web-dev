@@ -1,3 +1,4 @@
+
 $("ul").on("click", "li", function(){
     $(this).toggleClass("completed");
 });
@@ -18,4 +19,5 @@ $("input[type='text']").keypress(function(event){
         $("ul").append("<li><span>X</span> " + todoText + "</li>");
     }
 });
+
 
