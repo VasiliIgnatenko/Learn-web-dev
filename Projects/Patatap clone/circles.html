@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Circles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script type="text/javascript" src="paper-full.js"></script>
+    <script type="text/paperscript" canvas="myCanvas">
+        // The starting position of the line
+        
+        function onKeyDown(event) {
+           var maxPoint = new Point(view.size.width, view.size.height);
+           var randomPoint = Point.random();
+           var point = maxPoint * randomPoint;
+           new Path.Circle(point, 10).fillColor = "orange";
+        }
+       
+    </script>
+</head>
+<body>
+    <canvas id="myCanvas" resize></canvas>
+</body>
+</html>
